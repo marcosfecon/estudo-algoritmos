@@ -1,0 +1,10 @@
+Dado um numero inteiro de 3 algarismos, inverter a ordem de seus 
+algarismos. Os três algarismos dado são diferentes de zero
+
+inverteNumero();
+
+leia(n);
+n = (n % 10 * 100) + (((n / 10) % 10) * 10) + (n / 100);
+imprima(n);
+
+
